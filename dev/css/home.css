@@ -1,0 +1,73 @@
+/* 这里到下一个注释的内容是导航栏和页脚的css内容 不要修改 */
+
+.navbar{
+    background-color: #fff;
+    border: none;
+}
+a.navbar-brand {
+    background: url(../img/LOGO.png) no-repeat;
+    background-size: contain;
+    width: 300px;
+    background-position: 40px 5px;
+    margin:0 30px;
+}
+
+.nav.navbar-nav{
+    font-weight: bold;
+    font-size: 135%;
+    margin-left: 30px;
+    
+}
+
+.navbar-item.active {
+    background-color: #424242;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar-item.active:hover{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-item {
+
+    color: #424242;
+    padding: 5px 5px;
+}
+
+.navbar-item:hover{
+    border: 2px solid #d3d3d3;
+    margin: -2px -2px;
+    border-radius: 5px;
+}
+
+
+.search {
+    float: left;
+    width: 300px;
+    padding-top: 12px;
+    margin-left: 200px;
+    margin-right: 10px;
+    font-weight: normal;
+}
+.search-bt {
+    margin-right: 140px;
+    padding-top: 12px;
+}
+
+hr {
+    border:2px solid #d3d3d3;
+}
+
+main{
+    padding-top: 60px;
+}
+
+.pixboost-mark {
+    background: url(../img/pixboost-footer.png) no-repeat center center;
+    background-size: contain;
+    height: 112px;
+}
+
+/*这里到上一个注释的内容是导航栏和页脚的css内容 不要修改*/
+/* 请在之后写新的css */
