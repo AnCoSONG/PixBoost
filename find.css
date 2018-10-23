@@ -1,0 +1,132 @@
+@keyframes rotateImg {
+    0% {transform : rotate(0deg);} 
+    100% {transform : rotate(360deg);} 
+} 
+@-webkit-keyframes rotateImg {
+    0%{-webkit-transform : rotate(0deg);} 
+    100%{-webkit-transform : rotate(360deg);} 
+}
+#find_1{
+    position: absolute;
+    left: 1200px;
+    top: 550px;
+    width: 150px;
+    height: 150px;
+    background-color: #FFF0F5;
+}
+#find_2{
+    position: absolute;
+    left: 1200px;
+    top: 550px;
+    width: 150px;
+    height: 150px;
+    background-color: #FFF0F5;
+    transform: rotate(45deg);
+}
+img{
+    width: 100%;
+    background-attachment: fixed;
+}
+body{
+    overflow-y:hidden;
+}
+#input_box{
+    align-self: center;
+    position: relative;
+    top: 100px;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:1px 1px 1px 1px rgb(117, 117, 117) ;
+    border: solid 1px #000;
+    width: 48%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: #fff;
+}
+#upload_h1{
+    font-size: 50px;
+    letter-spacing: 15px;
+    margin-left: 30px;
+}
+#upload_small{
+    margin-left: 10px;
+    letter-spacing: 12px;
+
+}
+#upload_label{
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 30px;
+    letter-spacing: 7px;
+    line-height: 1.5em;
+}
+.form-control{
+    border: solid 10px 10px 10px 10px #000;
+    margin-left: 30px; 
+    width: 70%;
+}
+#upload_textarea{
+    width: 70%;
+    resize: none;
+    height: 150px;
+}
+#upload_icon{
+    font-size: 20px;
+    color: green;
+}
+#upload_icon_false{
+    font-size: 20px;
+    color: red;
+}
+#file_choose{
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+#picinput{
+    margin-left: 30px;
+}
+.fileinput-button {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.fileinput-button input{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    filter: 'alpha(opacity=0)';
+}
+#submit_button{
+    font-size: 10px;
+    line-height: 10px;
+    width: 80px;
+    letter-spacing: 10px;
+    align-content: center;
+    margin-left: 185px;
+    color: #000;
+    background-color: #fff;
+    border: 1px 1px 1px 1px #000;
+}
+#rotate_pic_1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 370px;
+    top: 25px;
+    animation:rotateImg 5s linear infinite;
+    vertical-align: middle;
+}
+#rotate_pic_2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 1000px;
+    top: 500px;;
+    animation:rotateImg 5s linear infinite;
+    vertical-align: middle;
+}
