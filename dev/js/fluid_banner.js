@@ -226,7 +226,7 @@ function changeStatus() {
 function main() {
     setInterval(function () {
         changeStatus();
-    }, 2500);
+    }, 2200);
 }
 
 
