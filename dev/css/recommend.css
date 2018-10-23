@@ -1,0 +1,88 @@
+/* Vaskka 2018-10-23 14:55:28 */
+
+li {
+    list-style: none;
+}
+
+
+.fix-height {
+    width: 100%;
+    height: 50px;
+
+}
+
+.fluid-item { 
+    height: 400px
+}
+
+.fix-up {
+    height: 150px;
+}
+
+.fix-down {
+    height: 60px;
+}
+
+
+.banner {
+    height: 500px;
+}
+
+.fluid-list > .fluid-item {
+    position: absolute;
+
+}
+
+/* 中间展示 */
+.fluid-list > .fluid-item:nth-child(1) {
+    z-index: 7;
+    
+}
+
+/* 上一层 */
+.fluid-list > .fluid-item:nth-child(2) {
+    z-index: 6;
+    top: -60px;
+    transform: scale(0.85);
+    opacity: 0.85;
+}
+
+/* 上二层 */
+.fluid-list > .fluid-item:nth-child(3) {
+    z-index: 5;
+    top: -120px;
+    transform: scale(0.7);
+    opacity: 0.7;
+}
+
+/* 上三层 */
+.fluid-list > .fluid-item:nth-child(4) {
+    z-index: 4;
+    top: -180px;
+    transform: scale(0.55);
+    opacity: 0.55;
+}
+
+/* 下三层 */
+.fluid-list > .fluid-item:nth-child(5) {
+    z-index: 1;
+    top: 180px;
+    transform: scale(0.55);
+    opacity: 0.55;
+}
+
+/* 下二层 */
+.fluid-list > .fluid-item:nth-child(6) {
+    z-index: 2;
+    top: 120px;
+    transform: scale(0.7);
+    opacity: 0.7;
+}
+
+/* 下一层 */
+.fluid-list > .fluid-item:nth-child(7) {
+    z-index: 3;
+    top: 60px;
+    transform: scale(0.85);
+    opacity: 0.85;
+}

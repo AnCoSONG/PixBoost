@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/recommend.css">
+
     <title>每日推荐</title>
 </head>
 <body>
@@ -91,89 +91,105 @@
             </div>
         </div>
     </nav>
-
     <main>
-        <div class=".container-fluid">
-            <!--轮播banner-->
-            <div class="pictureSlider poster-main">
-				<ul id="zturn" class="poster-list">
-					<li class="poster-item  zturn-item" style="position: absolute; left: 50%; margin-left: -228.571px; z-index: 5; opacity: 0.729; transform: scale(0.729) rotate(-90deg);" data_n="0">
-						<p class="xxgy">我是滚动1</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/1.jpg" width="100%">
-						</div>
+        <div class="container">
+            <div class="row">
+                <div class="fix-height fix-up">
 
-						
-					</li>
+                </div>
+                <!-- <div class="col-lg-3">
+                </div> -->
+                <!--轮播banner-->
+                <div class="banner col-lg-8 col-lg-offset-2">
+                    <ul class="fluid-list center-block">
+                        <li class="fluid-item" page="0">
+                            <div class="fliud-li-inner pannel panel panel-default center-block">
+                                <div class="pannel-title">
+                                    <h3> 大标题1 </h3>    
+                                    <label>小标题</label>
+                                </div>
+                                <div class="pannel-body inner-body">
+                                    <img src="img/banner_1.jpg" class="img-responsive"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fluid-item" page="1">
+                            <div class="fliud-li-inner pannel panel panel-default center-block">
+                                <div class="pannel-title">
+                                    <h3> 大标题2 </h3>    
+                                    <label>小标题</label>
+                                </div>
+                                <div class="pannel-body inner-body">
+                                    <img src="img/banner_2.jpg" class="img-responsive"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fluid-item" page="2">
+                            <div class="fliud-li-inner pannel panel panel-default center-block">
+                                <div class="pannel-title">
+                                    <h3> 大标题3 </h3>    
+                                    <label>小标题</label>
+                                </div>
+                                <div class="pannel-body inner-body">
+                                    <img src="img/banner_3.jpg" class="img-responsive"/>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="fluid-item" page="3">
+                                <div class="fliud-li-inner pannel panel panel-default center-block">
+                                    <div class="pannel-title">
+                                        <h3> 大标题4 </h3>    
+                                        <label>小标题</label>
+                                    </div>
+                                    <div class="pannel-body inner-body">
+                                        <img src="img/banner_4.jpg" class="img-responsive"/>
+                                    </div>
+                                </div>
+                            </li>
+                        <li class="fluid-item" page="4">
+                                    <div class="fliud-li-inner pannel panel panel-default center-block">
+                                        <div class="pannel-title">
+                                            <h3> 大标题5 </h3>    
+                                            <label>小标题</label>
+                                        </div>
+                                        <div class="pannel-body inner-body">
+                                            <img src="img/banner_5.jpg" class="img-responsive"/>
+                                        </div>
+                                    </div>
+                        </li>
+                        <li class="fluid-item" page="5">
+                                <div class="fliud-li-inner pannel panel panel-default center-block">
+                                    <div class="pannel-title">
+                                        <h3> 大标题6 </h3>    
+                                        <label>小标题</label>
+                                    </div>
+                                    <div class="pannel-body inner-body">
+                                        <img src="img/banner_6.jpg" class="img-responsive"/>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class="fluid-item" page="5">
+                                <div class="fliud-li-inner pannel panel panel-default center-block">
+                                    <div class="pannel-title">
+                                        <h3> 大标题7 </h3>    
+                                        <label>小标题</label>
+                                    </div>
+                                    <div class="pannel-body inner-body">
+                                        <img src="img/banner_7.jpg" class="img-responsive"/>
+                                    </div>
+                                </div>
+                        </li>
+                    </ul>
+                </div>
 
-					<li class="poster-item zturn-item" style="position: absolute; left: 50%; margin-left: -185.714px; z-index: 6; opacity: 0.81; transform: scale(0.81) rotate(-90deg);" data_n="1">
-						<p class="xxgy">我是滚动2</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/2.jpg" width="100%">
-						</div>
-						
-					</li>
 
-					<li class="poster-item zturn-item" style="position: absolute; left: 50%; margin-left: -142.857px; z-index: 7; opacity: 0.9; transform: scale(0.9) rotate(-90deg);" data_n="2">
-						<p class="xxgy">我是滚动3</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/3.png" width="100%">
-						</div>
-						
-					</li>
-
-					<li class="poster-item zturn-item" style="position: absolute; left: 50%; margin-left: -100px; z-index: 8; opacity: 1; transform: scale(1) rotate(-90deg);" data_n="3">
-						<p class="xxgy">我是滚动4</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/4.jpg" width="100%">
-						</div>
-						
-					</li>
-
-					<li class="poster-item zturn-item" style="position: absolute; left: 50%; margin-left: -57.1429px; z-index: 7; opacity: 0.9; transform: scale(0.9) rotate(-90deg);" data_n="4">
-						<p class="xxgy">我是滚动5</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/5.jpg" width="100%">
-						</div>
-						
-					</li>
-					<li class="poster-item  zturn-item" style="position: absolute; left: 50%; margin-left: -14.2857px; z-index: 6; opacity: 0.81; transform: scale(0.81) rotate(-90deg);" data_n="5">
-						<p class="xxgy">我是滚动6</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/6.jpg" width="100%">
-						</div>
-						
-					</li>
-
-					<li class="poster-item zturn-item" style="position: absolute; left: 50%; margin-left: 28.5714px; z-index: 5; opacity: 0.729; transform: scale(0.729) rotate(-90deg);" data_n="6">
-						<p class="xxgy">我是滚动7</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/7.jpg" width="100%">
-						</div>
-						
-					</li>
-
-					<li class="poster-item zturn-item" style="position: absolute; left: 50%; margin-left: 71.4286px; z-index: 4; opacity: 0.6561; transform: scale(0.6561) rotate(-90deg);" data_n="7">
-						<p class="xxgy">我是滚动8</p>
-						<p class="say">明月几时有</p>
-						<div class="for_btn">
-							<img src="img/8.png" width="100%">
-						</div>
-						
-					</li>		
-
-				</ul>
+            </div>
+            
+       </div>
+    </main>
+    <div class="fix-height fix-down">
 
         </div>
-    </main>
-
     <footer>
         <div class="container-fluid">
             <div class="row">
@@ -187,5 +203,9 @@
         </div>
         
     </footer>
+    <script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/fluid_banner.js"></script>
+
 </body>
 </html>
