@@ -36,7 +36,7 @@ li {
 
 .fluid-list > .fluid-item {
     position: absolute;
-    transition: all 0.7s ease;
+    transition: all 1s ease;
     box-shadow: 5px 7px 3px #888;
     height: 470px;
 }
@@ -52,7 +52,7 @@ li {
     z-index: 6;
     top: -60px;
     transform: scale(0.85);
-    opacity: 0.85;
+    opacity: 0.61;
 }
 
 /* 上二层 */
@@ -60,7 +60,7 @@ li {
     z-index: 5;
     top: -120px;
     transform: scale(0.7);
-    opacity: 0.7;
+    opacity: 0.52;
 }
 
 /* 上三层 */
@@ -68,7 +68,7 @@ li {
     z-index: 4;
     top: -180px;
     transform: scale(0.55);
-    opacity: 0.55;
+    opacity: 0.42;
 }
 
 /* 下三层 */
@@ -76,7 +76,7 @@ li {
     z-index: 1;
     top: 180px;
     transform: scale(0.55);
-    opacity: 0.55;
+    opacity: 0.42;
 }
 
 /* 下二层 */
@@ -84,7 +84,7 @@ li {
     z-index: 2;
     top: 120px;
     transform: scale(0.7);
-    opacity: 0.7;
+    opacity: 0.52;
 }
 
 /* 下一层 */
@@ -92,5 +92,5 @@ li {
     z-index: 3;
     top: 60px;
     transform: scale(0.85);
-    opacity: 0.85;
+    opacity: 0.62;
 }
