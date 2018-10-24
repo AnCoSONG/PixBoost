@@ -86,3 +86,8 @@ main {
 }
 
 /* 以上为nav和footer的部分*/
+
+::-webkit-scrollbar {
+    width: 0px !important; 
+    
+}
