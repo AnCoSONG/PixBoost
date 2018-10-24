@@ -5,7 +5,8 @@
     display: table-cell;
     text-align: center;
 }
-/* 1-2 */
+
+/* hi 左点 */
 .point-left {
     animation: left-point-show 8s;
 
@@ -19,7 +20,7 @@
     height: 60px;
     
 }
-/* 1-2 */
+/* hi 右点 */
 .point-right {
     animation: right-point-show 8s;
 
@@ -34,29 +35,8 @@
 
 }
 
-/* 3-4 */
-/* .point-left {
-    position: absolute;
-    top: 0px;
-    left: 223px;
-    border-radius: 30px;
-    background-color: #CCFF00;
 
-    width: 60px;
-    height: 60px;
-} */
-/* 3-4 */
-/* .point-right {
-    position: absolute;
-    top: 0px;
-    right: 83px;
-    background-color: #CCFF00;
-    width: 60px;
-    height: 60px;
-    border-radius: 30px;
-
-} */
-
+/* hi的中心定位参考 */
 .hi-body {
     position: relative;
     margin-left: auto;
@@ -67,12 +47,15 @@
 
 } 
 
+
+/* hi主体 */
 .hi-body > img.hi-body-img {
     animation: hi-body-show 8s;
 
     opacity: 0;
 }
 
+/* logo */
 .show-logo {
     animation: logo-show 8s;
 
@@ -86,6 +69,8 @@
     opacity: 0;
 }
 
+
+/* 左点关键帧 */
 @keyframes left-point-show {
     0% {
         opacity: 0;
@@ -125,6 +110,8 @@
     }
 }
 
+
+/* 右点关键帧 */
 @keyframes right-point-show {
     0% {
         opacity: 0;
@@ -163,6 +150,7 @@
 }
 
 
+/* hi主体关键帧 */
 @keyframes hi-body-show {
     0% {
         opacity: 0;
@@ -184,6 +172,7 @@
     }
 }
 
+/* logo关键帧 */
 @keyframes logo-show {
     0% {
         opacity: 0;
@@ -197,32 +186,11 @@
     40% {
         opacity: 0;
     }
-    65% {
+    55% {
         opacity: 0;
     }
-    80% {
+    70% {
         opacity: 1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes main-show {
-    0% {
-        opacity: 0;
-    }
-    10% {
-        opacity: 0;
-    }
-    40% {
-        opacity: 0;
-    }
-    60% {
-        opacity: 0;
-    }
-    80% {
-        opacity: 0;
     }
     100% {
         opacity: 1;
