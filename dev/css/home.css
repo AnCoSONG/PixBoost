@@ -39,6 +39,7 @@ a.navbar-brand {
     border: 2px solid #d3d3d3;
     margin: -2px -2px;
     border-radius: 5px;
+    
 }
 
 
@@ -98,6 +99,12 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     position: relative;
     z-index: 1;
+    transition: all 0.2s ease;
+}
+
+.img-item-1:hover {
+    background-color: rgba(56, 56, 56, 0.418);
+    background-blend-mode: multiply;
 }
 
 .img-item-2 {
@@ -111,7 +118,13 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     position: relative;
     z-index: 2;
+    transition: all 0.2s ease;
     /* left:-200px; */
+}
+
+.img-item-2:hover {
+    background-color: rgba(56, 56, 56, 0.418);
+    background-blend-mode: multiply;
 }
 
 .img-item-3 {
@@ -127,6 +140,12 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     z-index: 3;
     position: relative;
+    transition: all 0.2s ease;
+}
+
+.img-item-3:hover {
+    background-color: rgba(56, 56, 56, 0.418);
+    background-blend-mode: multiply;
 }
 
 .img-item-4 {
@@ -140,7 +159,13 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     z-index: 2;
     position: relative;
+    transition: all 0.2s ease;
     /* right:-200px; */
+}
+
+.img-item-4:hover {
+    background-color: rgba(56, 56, 56, 0.418);
+    background-blend-mode: multiply;
 }
 
 .img-item-5 {
@@ -154,6 +179,12 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     z-index: 1;
     position: relative;
+    transition: all 0.2s ease;
+}
+
+.img-item-5:hover {
+    background-color: rgba(56, 56, 56, 0.418);
+    background-blend-mode: multiply;
 }
 
 .spanTitle {
@@ -186,7 +217,6 @@ main {
         height: 2100px;
         box-shadow: 0px 16px 42.25px 22.75px rgba(6, 0, 1, 0.34);
         border-radius: 30px;
-
 }
    
 
@@ -196,33 +226,33 @@ main {
 }
 
 .operation {
-    width: 200px;
-    height: 30px;
+    height: 10px;
 }
 
 .re-description {
-    width: 200px;
-    height: 30px;
+    position: relative;
+    right: 10px;
+    height: 10px;
 }
 
 .operation .glyphicon {
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
 .re-description .desc {
     position: relative;
-    top:30px;
+    top: 12px;
     color: #686868;
 }
 
 
 .recontent {
     position: relative;
-    width: 450px;
+    width: 400px;
     height: 350px;
-    left: 30px;
+    left: 0px;
     margin-bottom: 50px;
     margin-top: 50px;
 }
@@ -234,7 +264,8 @@ main {
     background-image: url(../img/10.jpeg);
     background-repeat: repeat;
     background-size: cover;
-    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+    transition: all 0.2s ease;
+    
     
 }
 
@@ -245,7 +276,7 @@ main {
     background-image: url(../img/11.jpeg);
     background-repeat: repeat;
     background-size: cover;
-    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+    transition: all 0.2s ease;
     
 }
 
@@ -256,7 +287,7 @@ main {
     background-image: url(../img/12.jpg);
     background-repeat: repeat;
     background-size: cover;
-    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+    transition: all 0.2s ease;
     
 }
 
@@ -267,8 +298,24 @@ main {
     background-image: url(../img/16.png);
     background-repeat: repeat;
     background-size: cover;
-    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+    transition: all 0.2s ease;
     
+}
+
+.center-img-1:hover {
+    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+}
+
+.center-img-2:hover {
+    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+}
+
+.center-img-3:hover {
+    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+}
+
+.center-img-4:hover {
+    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
 }
 
 .re-more {
@@ -284,4 +331,10 @@ main {
     font-size: 200%;
     border:3px solid #424242;
     border-radius: 10px;
+    transition: all 0.2s ease;
+}
+/*取消滚动条*/
+::-webkit-scrollbar {
+    width: 0px !important; 
+    
 }

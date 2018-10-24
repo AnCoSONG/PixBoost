@@ -1,1 +1,10 @@
 静态主页开发完成 √
+
+骚操作：
+1. 按钮操作改成炫库的按钮 https://blog.csdn.net/hzp666/article/details/78361036?locationNum=7&fps=1
+2. 分类 做成 一段一段的
+3. 首页 首页推荐 白块边滑边往上移
+4. 首页推荐四个字 做矩阵变换 参见：http://migueltrias.com/
+5. 欢迎页进入动画 https://vspicer.com/ 见preloader盒子
+6. 发现界面菱形块循环自转
+7. 首页的四个导航栏可以改成tab，使用渐入渐出效果
