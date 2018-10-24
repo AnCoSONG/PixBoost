@@ -32,14 +32,14 @@ function after_show() {
 
         $("div.pre-show").animate({
             opacity: "0",
-        }, "500", function() {
+        }, "normal", "swing", function() {
             $("div.pre-show").css("display", "none");
             $("nav.navabr").animate({
                 opacity: "1"
-            });
+            }, "normal", "swing");
             $("main.main-content").animate({
                 opacity: "1"
-            });
+            }, "normal", "swing");
         });
 
 

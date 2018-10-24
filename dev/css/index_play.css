@@ -9,7 +9,7 @@
 /* hi 左点 */
 .point-left {
     animation: left-point-show 8s;
-
+    animation-timing-function: ease-in-out;
     position: absolute;
     top: -90px;
     left: -120px;
@@ -23,7 +23,7 @@
 /* hi 右点 */
 .point-right {
     animation: right-point-show 8s;
-
+    animation-timing-function: ease-in-out;
     position: absolute;
     top: -90px;
     right: -120px;
@@ -51,14 +51,14 @@
 /* hi主体 */
 .hi-body > img.hi-body-img {
     animation: hi-body-show 8s;
-
+    animation-timing-function: ease-in-out;
     opacity: 0;
 }
 
 /* logo */
 .show-logo {
     animation: logo-show 8s;
-
+    animation-timing-function: ease-in-out;
     position: absolute;
     margin-top: 40px;
     left: 0;
