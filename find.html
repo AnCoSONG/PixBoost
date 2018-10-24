@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 包含了所有编译插件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="./find.js"></script>
+    <link rel="stylesheet" href="./find.css"/>
+    <title>pixboost  发现</title>
+</head>
+<body>
+    <img id="find_bg" src="./find_bg.jpg" alt="">
+        <div id="find_2">
+        </div>
+        <div class="container">
+            <a href="#upload" id="upload_enter">
+                <div id="find_1">
+                        <h1 style="text-align: center;">发现
+                            <br>
+                            <small style="font-weight: 100;">身边的美</small>
+                        </h1>
+                        <h3 style="line-height: 0.4em; color: black;text-align: center;font-weight: 100;">·UPLOAD·</h3>
+                </div>
+            </a>
+    </div>
+    <div class="container" id="upload">
+        <img id="rotate_pic_1" src="./rotate_1.jpg">
+        <img id="rotate_pic_2" src="./rotate_2.jpg">
+        <div class="container">
+            <div id="input_box">
+                <form>
+                    <h1 id="upload_h1">上传<small id="upload_small">UPLOAD</small></h1>
+                    <div class="input-icon-group">
+                        <div class="input-group">
+                            <h1 id="upload_label">图片名称<small>(20字以内)</small></h1>
+                            <input type="text" class="form-control" id="pic_name" name="pic_name"/>
+                            <span id="upload_icon" class="input-group-addon"><span class="glyphicon glyphicon-ok-circle pull-right"></span></span>
+                        </div>
+                    </div>
+                    <div class="input-icon-group">
+                        <div class="input-group">
+                            <h1 id="upload_label">图片描述<small>(200字以内)</small></h1>
+                            <textarea id="upload_textarea" type="textarea" class="form-control" name="pic_desc"></textarea>
+                            <span id="upload_icon_false" class="input-group-addon"><span class="glyphicon glyphicon-remove-circle pull-right"></span></span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label id="file_choose">选择图片</label>
+                        <span class="btn btn-success fileinput-button">
+                            <span>上传</span>
+                            <input type="file">
+                        </span>
+                        <span><button id="submit_button" class="btn btn-primary">提交</button></span>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
