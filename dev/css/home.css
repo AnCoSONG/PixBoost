@@ -209,6 +209,7 @@ main {
     padding: 3px;
     margin: 0px 30px;
 }
+
 .recommendDiv {
         margin-top: 70px;
         margin-bottom: 70px;
@@ -219,8 +220,6 @@ main {
         border-radius: 30px;
 }
    
-
-
 .recommend-desc {
     letter-spacing: 1em;
 }
