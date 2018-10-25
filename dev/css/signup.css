@@ -109,5 +109,31 @@ main {
     }
 }
 
+.empty-1 {
+    animation: mymove-1 5s ease-in-out infinite;
+}
+.empty-3 {
+    animation: mymove-1 5s ease-in-out infinite;
+}
+
+.empty-2 {
+    animation: mymove-2 5s ease-in-out infinite;
+}
+
+.empty-4 {
+    animation: mymove-2 5s ease-in-out infinite;
+}
+  
+@keyframes mymove-1 {
+    0% { height:100px; }
+    50% { height: 200px; }
+    100% { height: 100px; }
+}
+
+@keyframes mymove-2 {
+    0% { height:150px; }
+    50% { height: 50px; }
+    100% { height: 150px; }
+}
 
   
