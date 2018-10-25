@@ -333,6 +333,24 @@ main {
     border-radius: 10px;
     transition: all 0.2s ease;
 }
+
+.ppt-fix {
+    height: calc(100vh * 0.85);
+}
+
+div.ppt {
+    padding: 0;
+}
+
+
+div.ppt div {
+    position: absolute;
+    display: inline-block;
+    top: 7%;
+    /* padding: 0; */
+}
+
+
 /*取消滚动条*/
 ::-webkit-scrollbar {
     width: 0px !important; 

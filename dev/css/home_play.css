@@ -1,11 +1,13 @@
 #i1 {
+    max-width: 300%;
     transition: all 1s ease-in-out ease-in-out;
     -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
     -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
     -o-transition: all 1s ease-in-out;	/* Opera */
 }
 
-#i1 {
+#i2 {
+    max-width: 300%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
     -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
@@ -13,6 +15,7 @@
 }
 
 #i3 {
+    max-width: 300%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
     -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
@@ -20,6 +23,7 @@
 }
 
 #i4 {
+    max-width: 300%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
     -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
@@ -27,6 +31,7 @@
 }
 
 #i5 {
+    max-width: 300%;
     transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
     -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
