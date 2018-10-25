@@ -99,7 +99,7 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     position: relative;
     z-index: 1;
-    /* transition: all 0.2s ease; */
+    transition: all 0.2s ease;
 }
 
 .img-item-1:hover {
@@ -110,7 +110,7 @@ main {
 .img-item-2 {
     display: block;
     margin:20px 0px;
-    background: url(../img/19.jpg) repeat center center;
+    background: url(../img/2.jpg) repeat center center;
     background-size: cover;
     height: calc(100vh * 0.85);
     max-width: 100%;
@@ -118,7 +118,7 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     position: relative;
     z-index: 2;
-    /* transition: all 0.2s ease; */
+    transition: all 0.2s ease;
     /* left:-200px; */
 }
 
@@ -140,7 +140,7 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     z-index: 3;
     position: relative;
-    /* transition: all 0.2s ease; */
+    transition: all 0.2s ease;
 }
 
 .img-item-3:hover {
@@ -159,7 +159,7 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     z-index: 2;
     position: relative;
-    /* transition: all 0.2s ease; */
+    transition: all 0.2s ease;
     /* right:-200px; */
 }
 
@@ -179,7 +179,7 @@ main {
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     z-index: 1;
     position: relative;
-    /* transition: all 0.2s ease; */
+    transition: all 0.2s ease;
 }
 
 .img-item-5:hover {
