@@ -1,0 +1,34 @@
+#i1 {
+    transition: all 1s ease-in-out ease-in-out;
+    -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
+    -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
+    -o-transition: all 1s ease-in-out;	/* Opera */
+}
+
+#i1 {
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
+    -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
+    -o-transition: all 1s ease-in-out;	/* Opera */
+}
+
+#i3 {
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
+    -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
+    -o-transition: all 1s ease-in-out;	/* Opera */ 
+}
+
+#i4 {
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
+    -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
+    -o-transition: all 1s ease-in-out;	/* Opera */
+}
+
+#i5 {
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;	/* Firefox 4 */
+    -webkit-transition: all 1s ease-in-out;	/* Safari 和 Chrome */
+    -o-transition: all 1s ease-in-out;	/* Opera */
+}
