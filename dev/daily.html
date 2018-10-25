@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/navfooter.css">
+    <link rel="stylesheet" type="text/css" href="css/daily.css"/>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/zturn.js"></script>
+    <title>Pixboost 每日推荐</title>
+</head>
+<body>
+<nav role="navigation">
+                <div class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <a href="index_new.html" class="navbar-brand"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="home.html">
+                                    <div class="navbar-item">
+                                        首 页
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="fenlei.html">
+                                    <div class="navbar-item">
+                                        分 类
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="daily.html">
+                                    <div class="navbar-item  active">
+                                        每 日 推 荐
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="findmore.html">
+                                    <div class="navbar-item">
+                                         发 现
+                                    </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <div class="search visible-lg">
+                                            <input type="search" class="form-control" placeholder="搜索图片">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-bt visible-lg">
+                                            <button class="btn btn-default" type="submit">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                            
+                                        </div>
+                                        
+                                    </li>
+        
+                            <li>
+                                <a href="login.html">
+                                    <div class="navbar-item">
+                                        登 录
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="signup.html">
+                                    <div class="navbar-item">
+                                        注 册
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+</nav>
+<main>
+                <div class="content" style="height: 700px;width: 800px;margin:-30px auto;">
+                        <!--轮播-->
+                        <div class="lb_gl">
+                            <div class="container-ppt">
+                                <div class="pictureSlider poster-main">
+                                    <ul id="zturn" class="poster-list">
+                                        <li class="poster-item  zturn-item">
+                                            <a href="img/1.jpg" class="a">
+                                                    <p class="xxgy" style="margin:3px auto;">星空</p>
+                                                    <p class="say" style="margin:3px auto;">美丽的夜空</p>
+                                                    <div class="for_btn" style="margin:3px auto;">
+                                                        <img src="img/1.jpg" width="100%" class="img-responsive">
+                                                    </div>
+                                            </a>
+                                           
+                                        </li>
+                                        <li class="poster-item zturn-item">
+                                                <a href="img/2.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">自然</p>
+                                                        <p class="say" style="margin:3px auto;">无以言表的美</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/2.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                        <li class="poster-item zturn-item">
+                                                <a href="img/banner_1.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">花瓶</p>
+                                                        <p class="say" style="margin:3px auto;">逆光花瓶</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/banner_1.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                        <li class="poster-item zturn-item">
+                                                <a href="img/banner_2.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">海岸</p>
+                                                        <p class="say" style="margin:3px auto;">海边的风景</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/banner_2.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                        <li class="poster-item zturn-item">
+                                                <a href="img/banner_3.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">水池</p>
+                                                        <p class="say" style="margin:3px auto;">水池的一角</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/banner_3.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                        <li class="poster-item  zturn-item">
+                                                <a href="img/banner_4.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">碗</p>
+                                                        <p class="say" style="margin:3px auto;">逆光瓷碗</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/banner_4.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                        <li class="poster-item zturn-item">
+                                                <a href="img/banner_5.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">光辉</p>
+                                                        <p class="say" style="margin:3px auto;">凌乱的光芒</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/banner_5.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                        <li class="poster-item zturn-item">
+                                                <a href="img/banner_6.jpg" class="a">
+                                                        <p class="xxgy" style="margin:3px auto;">茶杯</p>
+                                                        <p class="say" style="margin:3px auto;">茶杯与红茶</p>
+                                                        <div class="for_btn" style="margin:3px auto;">
+                                                            <img src="img/banner_6.jpg" width="100%" class="img-responsive">
+                                                        </div>
+                                                </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+</main>
+        
+<script type="text/javascript">
+            var aa = new zturn({
+                id: "zturn",
+                opacity: 0.9,
+                width: 200,
+                Awidth: 300,
+                scale: 0.9,
+                auto: true,
+                //是否轮播 默认5000
+                turning: 2000//轮播时长
+            })
+</script>
+</body>
+</html>

@@ -21,13 +21,13 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             </button>
-                            <a href="home.html" class="navbar-brand"></a>
+                            <a href="index_new.html" class="navbar-brand"></a>
                         </div>
                         <div class="collapse navbar-collapse" id="example-navbar-collapse">
                         <ul class="nav navbar-nav navbar-left">
                             <li>
                                 <a href="home.html">
-                                    <div class="navbar-item active">
+                                    <div class="navbar-item">
                                         首 页
                                     </div>
                                 </a>
@@ -40,7 +40,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a href="dailyrecommend.html">
+                                <a href="daily.html">
                                     <div class="navbar-item">
                                         每 日 推 荐
                                     </div>
@@ -73,7 +73,7 @@
         
                             <li>
                                 <a href="login.html">
-                                    <div class="navbar-item">
+                                    <div class="navbar-item  active">
                                         登 录
                                     </div>
                                 </a>
@@ -106,35 +106,38 @@
                         <img src="img/4.jpg" alt="" class="img-responsive">
                     </a>
                 </div>
-                <div class="col-lg-4 content-wrap">
-                    <div class="table-header">
-                        <h1 class="text-left" style="font-weight: bold; margin-left: 30px;letter-spacing: 10px;float: left;font-size: 50px;">登录</h1>
-                        <small style="position: relative; top:50px; font-size: 15px;">没有账号？<a href="signup.html">注册</a></small>
-                    </div>
-                    <div class="table-content" style="margin-top: 120px;">
-                        <h3 style="margin-left: 30px; letter-spacing: 10px; font-weight: bold;">账号</h1>
-                        <input type="text" class="form-control" placeholder="Username or E-mail address" style="margin-left: 30px;width:350px;">
-                        <a href="#" data-toggle="popover" data-content="你好像什么都没有输入呢" class="input-info pull-right" style="position: relative;top: -20px;
-                        ">
-                            <span class="glyphicon glyphicon-question-sign"></span>
-                        </a>
-                    </div>
-                    <div class="table-content" style="margin-top:30px;">
-                            <h3 style="margin-left: 30px; letter-spacing: 10px; font-weight: bold;">密码</h1>
-                            <input type="password" class="form-control" placeholder="Password" style="margin-left: 30px;width:350px;">
+                <form action="login.jsp" role="form" method="GET">
+                    <div class="col-lg-4 content-wrap">
+                        <div class="table-header">
+                            <h1 class="text-left" style="font-weight: bold; margin-left: 30px;letter-spacing: 10px;float: left;font-size: 50px;">登录</h1>
+                            <small style="position: relative; top:50px; font-size: 15px;">没有账号？<a href="signup.html">注册</a></small>
+                        </div>
+                        <div class="table-content form-group" style="margin-top: 120px;">
+                            <h3 style="margin-left: 30px; letter-spacing: 10px; font-weight: bold;">账号</h1>
+                            <input type="text" class="form-control" placeholder="Username or E-mail address" style="margin-left: 30px;width:350px;">
                             <a href="#" data-toggle="popover" data-content="你好像什么都没有输入呢" class="input-info pull-right" style="position: relative;top: -20px;
                             ">
                                 <span class="glyphicon glyphicon-question-sign"></span>
                             </a>
+                        </div>
+                        <div class="table-content form-group" style="margin-top:30px;">
+                                <h3 style="margin-left: 30px; letter-spacing: 10px; font-weight: bold;">密码</h1>
+                                <input type="password" class="form-control" placeholder="Password" style="margin-left: 30px;width:350px;">
+                                <a href="#" data-toggle="popover" data-content="你好像什么都没有输入呢" class="input-info pull-right" style="position: relative;top: -20px;
+                                ">
+                                    <span class="glyphicon glyphicon-question-sign"></span>
+                                </a>
+                        </div>
+                        <div class="table-content" style="margin-top:50px;">
+                            <button class="btn btn-primary" style="margin-left: 30px;width:350px;height: 40px;" type="submit">
+                                <span style="letter-spacing: 10px; font-weight: bold;">登&nbsp;录</span>
+                            </button>
+                        </div>
+                        
+                        
                     </div>
-                    <div class="table-content" style="margin-top:50px;">
-                        <button class="btn btn-primary" style="margin-left: 30px;width:350px;height: 40px;" action="home.html">
-                            <span style="letter-spacing: 10px; font-weight: bold;">登&nbsp;录</span>
-                        </button>
-                    </div>
-                    
-                    
-                </div>
+                </form>
+                
                 <div class="col-lg-2" style="position: relative; left: 30px;">
                         <div class="empty" style="height: 200px;"></div>
                         <a href="" class="thumbnail">

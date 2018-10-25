@@ -12,7 +12,7 @@ Pixboost，中文名像素动力，是一个收集分享精美图片的网站，
 # 前端框架
 
 Bootstrap 3.3.7
-Jquery 3.3.4
+Jquery 2.1.1
 
 # 后端框架
 

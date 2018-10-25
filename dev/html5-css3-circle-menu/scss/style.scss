@@ -1,0 +1,71 @@
+@import "compass/css3";
+
+$sub-menus :  5;
+
+body {
+ background: url(http://www.scenicreflections.com/files/Hazy_Forest_Road_Wallpaper_qoek0.jpg) 
+}
+.radmenu {
+  position: absolute;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  
+  > a {
+    top: calc(50% - 60px);
+    left: calc(50% - 60px);
+    &.show {
+     display: flex !important; 
+    }
+  }
+  li {
+   -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+   transition: all 1s ease; 
+  }
+  a {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: rgba(white, 0.9);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 120px;
+    display: none;
+    text-decoration: none;
+    color: #333;
+    transition: all 1s ease;
+    box-shadow: 0 0 15px #222;
+    font-family: "segoe ui";
+    font-weight: 200;
+    font-size: 16px;
+  }
+  .selected {
+    background: rgba(#333, 0.9);
+    display: flex;
+    top: calc(50% - 60px);
+    left: calc(50% - 60px);
+    color: #f1f1f1;
+    box-shadow: 0 0 10px #f1f1f1;
+    + ul {
+      @for $i from 1 through $sub-menus {
+        > li:nth-child(#{$i}) {
+          $angle: 360deg / $sub-menus * $i;
+          -webkit-transform: rotate($angle) translateX(100px);
+          transform: rotate($angle) translateX(100px);
+          > a {
+            -webkit-transform: rotate(0 - $angle);
+            transform: rotate(0 - $angle);
+          }
+        }
+      }
+      > li > a {
+        display: flex
+      }
+    }
+  }
+  
+}
