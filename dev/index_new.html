@@ -9,91 +9,111 @@
     <link rel="stylesheet" href="css/index_play.css">
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/index_play_new.js"></script>
     <title>Welcome to Pixboost</title>
 </head>
-<body>       
-    <div id="my" class="carousel slide" >
-                <!-- 轮播（Carousel）指标 -->
-                <ol class="carousel-indicators">
-                    <li data-target="#my" data-slide-to="0" class="active"></li>
-                    <li data-target="#my" data-slide-to="1"></li>
-                    <li data-target="#my" data-slide-to="2"></li>
-                </ol>   
-                <!-- 轮播（Carousel）项目 -->
-                <div class="carousel-inner" >
-                    <div class="item active">
-                        <div class="ppt-item-1">
-                            
-                        </div>
+<body>
+    <div class="pre-show">
+                <div class="hi-body">
+                    <div class="point-left">
                     </div>
-                    <div class="item">
-                            <div class="ppt-item-2">
-                            
-                            </div>
+                    
+                    <div class="point-right">  
                     </div>
-                    <div class="item">
-                            <div class="ppt-item-3">
-                                </div>
+        
+                    <img class="hi-body-img" src="img/hi_body.png" />
+                </div>
+        
+                <div class="show-logo">
+                    <img src="img/LOGO.png"/>
+                </div>
+    </div>
+    <main>
+        <div id="my" class="carousel slide" >
+            <!-- 轮播（Carousel）指标 -->
+            <ol class="carousel-indicators">
+                <li data-target="#my" data-slide-to="0" class="active"></li>
+                <li data-target="#my" data-slide-to="1"></li>
+                <li data-target="#my" data-slide-to="2"></li>
+            </ol>   
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner" >
+                <div class="item active">
+                    <div class="ppt-item-1">
+                        
                     </div>
                 </div>
-                <!-- 轮播（Carousel）导航 -->
-                <a class="left carousel-control" href="#my" role="button" data-slide="prev">
-                    <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span> -->
-                </a>
-                <a class="right carousel-control" href="#my" role="button" data-slide="next">
-                    <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span> -->
-                </a>
-        </div>
-        <div class="container">
-            <div class="row center-block" style="position: absolute; top:10%; width: 300px">
-                <img src="img/logo_white.png" alt="logo_white" class="img-responsive">
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                    <div class="slogen1 center-block" style=" position: absolute; top:30%; ">
-                            <img src="img/FindBeauty_.png" alt="slogen" class="img-responsive">
+                <div class="item">
+                        <div class="ppt-item-2">
+                        
                         </div>
+                </div>
+                <div class="item">
+                        <div class="ppt-item-3">
+                        </div>
+                </div>
             </div>
-        </div>
-        <div class="radmenu"><a href="#" class="show" >Click Me</a>
-            <ul>
-              <li>
-                <a href="daily.html" class="">每日推荐</a>
-                <!-- <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                  <li><a href="#">Sub Menu 4</a></li>
-                  <li><a href="#">Sub Menu 5</a></li>
-                </ul> -->
-              </li>
-              <li>
-                <a href="#">分类</a>
-               
-              </li>
-              <li>
-                <a href="home.html">进入主页</a>
-              </li>
-              <li>
-                <a href="#">发现</a>
-              </li>
-              <li>
-                  <a href="login.html">登录</a>
-              </li>
-             
-            </ul>
-          </div>
+            <!-- 轮播（Carousel）导航 -->
+            <a class="left carousel-control" href="#my" role="button" data-slide="prev">
+                <!-- <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span> -->
+            </a>
+            <a class="right carousel-control" href="#my" role="button" data-slide="next">
+                <!-- <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span> -->
+            </a>
+</div>
+<div class="container" id="#main-logo">
+    <div class="row center-block" style="position: absolute; top:10%; width: 300px">
+        <img src="img/logo_white.png" alt="logo_white" class="img-responsive">
+    </div>
+</div>
+<div class="container" id="main-background">
+    <div class="row">
+            <div class="slogen1 center-block" style=" position: absolute; top:30%; ">
+                    <img src="img/FindBeauty_.png" alt="slogen" class="img-responsive">
+                </div>
+    </div>
+</div>
+<div class="radmenu"><a href="#" class="show" >Click Me</a>
+    <ul>
+        <li>
+        <a href="daily.html" class="">每日推荐</a>
+        <!-- <ul>
+            <li><a href="#">Sub Menu 1</a></li>
+            <li><a href="#">Sub Menu 2</a></li>
+            <li><a href="#">Sub Menu 3</a></li>
+            <li><a href="#">Sub Menu 4</a></li>
+            <li><a href="#">Sub Menu 5</a></li>
+        </ul> -->
+        </li>
+        <li>
+        <a href="#">分类</a>
         
+        </li>
+        <li>
+        <a href="home.html">进入主页</a>
+        </li>
+        <li>
+        <a href="#">发现</a>
+        </li>
+        <li>
+            <a href="login.html">登录</a>
+        </li>
         
-        <script>
-            $(document).ready(function(){
-                $("#my").carousel('cycle');
-            });
-            
-        </script> 
-        <script src="js/index_button.js"></script>
+    </ul>
+</div>
+
+    </main>
+    
+        
+          
+    <script>
+        $(document).ready(function(){
+            $("#my").carousel('cycle');
+        });
+        
+    </script> 
+    <script src="js/index_button.js"></script>
 </body>
 </html>
