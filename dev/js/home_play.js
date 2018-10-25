@@ -53,7 +53,14 @@ function main(context) {
     $("a.img-item-1").click(function() {
         if (STATUS[0] == 0) {
             // 覆盖状态
-            STATUS[0] = 1;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                if (i != 0) {
+                    STATUS[i] = 0;
+                }
+                else {
+                    STATUS[i] = 1;
+                }
+            }
             // 未被点按过则展开
             $("#i1").animate({
                 left: (1 * context.inner_padding).toString() + "px",
@@ -84,7 +91,9 @@ function main(context) {
         }
         else {
             // 已被点按过则恢复静默
-            STATUS[0] = 0;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                    STATUS[i] = 0;
+            }
             back_to_silence(context);
         }
        
@@ -92,7 +101,14 @@ function main(context) {
     $("a.img-item-2").click(function() {
         if (STATUS[1] == 0) {
             // 覆盖状态
-            STATUS[1] = 1;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                if (i != 1) {
+                    STATUS[i] = 0;
+                }
+                else {
+                    STATUS[i] = 1;
+                }
+            }
             // 未被点按过则展开
             $("#i1").animate({
                 left: (1 *context.inner_padding).toString() + "px",
@@ -122,7 +138,10 @@ function main(context) {
         }
         else {
             // 已被点按过则恢复静默
-            STATUS[1] = 0;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                STATUS[i] = 0;
+
+            }
             back_to_silence(context);
         }
 
@@ -133,7 +152,14 @@ function main(context) {
 
         if (STATUS[2] == 0) {
             // 覆盖状态
-            STATUS[2] = 1;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                if (i != 2) {
+                    STATUS[i] = 0;
+                }
+                else {
+                    STATUS[i] = 1;
+                }
+            }
             // 未被点按过则展开
             $("#i1").animate({
                 left: (1 *context.inner_padding).toString() + "px",
@@ -163,7 +189,9 @@ function main(context) {
         }
         else {
             // 已被点按过则恢复静默
-            STATUS[2] = 0;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                STATUS[i] = 0;
+            }
             back_to_silence(context);
         }
     });
@@ -171,7 +199,14 @@ function main(context) {
 
         if (STATUS[3] == 0) {
             // 覆盖状态
-            STATUS[3] = 1;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                if (i != 3) {
+                    STATUS[i] = 0;
+                }
+                else {
+                    STATUS[i] = 1;
+                }
+            }
             // 未被点按过则展开
             $("#i1").animate({
                 left: (1 *context.inner_padding).toString() + "px",
@@ -201,7 +236,9 @@ function main(context) {
         }
         else {
             // 已被点按过则恢复静默
-            STATUS[3] = 0;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                STATUS[i] = 0;
+            }
             back_to_silence(context);
         }
 
@@ -210,7 +247,14 @@ function main(context) {
 
         if (STATUS[4] == 0) {
             // 覆盖状态
-            STATUS[4] = 1;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                if (i != 4) {
+                    STATUS[i] = 0;
+                }
+                else {
+                    STATUS[i] = 1;
+                }
+            }
             // 未被点按过则展开
             $("#i1").animate({
                 left: (1 *context.inner_padding).toString() + "px",
@@ -240,7 +284,9 @@ function main(context) {
         }
         else {
             // 已被点按过则恢复静默
-            STATUS[4] = 0;
+            for (var i = 0; i < ITEM_COUNT; i++) {
+                STATUS[i] = 0;
+            }
             back_to_silence(context);
         } 
     });
