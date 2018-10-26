@@ -1,6 +1,9 @@
 /* Vaskka 2018-10-24 17:10:24 */
 
 .pre-show {
+    animation: main-play 8s;
+    animation-timing-function: ease-in-out;
+    background-color: rgb(99, 210, 224);
     vertical-align: middle;
     display: table-cell;
     text-align: center;
@@ -14,10 +17,10 @@
     top: -90px;
     left: -120px;
     border-radius: 30px;
-    background-color: #CCFF00;
+    background-color: #FFFF00;
     opacity: 0;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     
 }
 /* hi 右点 */
@@ -27,10 +30,10 @@
     position: absolute;
     top: -90px;
     right: -120px;
-    background-color: #CCFF00;
+    background-color: #FFFF00;
     opacity: 0;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     border-radius: 30px;
 
 }
@@ -41,8 +44,8 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 365px;
-    height: 270px;
+    width: 257px;
+    height: 266px;
     display: inline-block;
 
 } 
@@ -55,13 +58,27 @@
     opacity: 0;
 }
 
+/* this is  */
+.show-this {
+    animation: this-show 8s;
+    animation-timing-function: ease-in-out;
+    position: absolute;
+    margin-top: 40px;
+    left: -600px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    opacity: 0;
+}
+
 /* logo */
 .show-logo {
     animation: logo-show 8s;
     animation-timing-function: ease-in-out;
     position: absolute;
     margin-top: 40px;
-    left: 0;
+    left: 600px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
@@ -75,38 +92,40 @@
     0% {
         opacity: 0;
         top: -90px;
-        left: -120px;
+        left: -130px;
 
     }
-    10% {
+    20% {
         opacity: 1;
         top: -90px;
-        left: -120px;
+        left: -130px;
 
 
     }
-    25% {
+    30% {
         opacity: 1;
         top: -90px;
-        left: 223px;
+        left: 225px;
 
     }
     40% {
         opacity: 1;
-        top: 0px;
-        left: 223px;
+        top: 10px;
+        left: 225px;
 
     }
     70% {
         opacity: 1;
-        top: 0px;
-        left: 223px;
+        top: 10px;
+        left: 225;
+        background-color: #ffffff;
 
     }
     100% {
         opacity: 0;
-        top: 0px;
-        left: 223px;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
     }
 }
 
@@ -116,36 +135,38 @@
     0% {
         opacity: 0;
         top: -90px;
-        right: -120px;
+        left: 305px;
 
     }
-    10% {
+    20% {
         opacity: 1;
         top: -90px;
-        right: -120px;
+        left: 305px;
 
     }
-    25% {
+    30% {
         opacity: 1;
         top: -90px;
-        right: 83px;
+        left: 225px;
     }
     40% {
         opacity: 1;
-        top: 0px;
-        right: 83px;
+        top: 10px;
+        left: 225px;
 
     }
     70% {
         opacity: 1;
-        top: 0px;
-        right: 83px;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
 
     }
     100% {
         opacity: 1;
-        top: 0px;
-        left: 223px;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
     }
 }
 
@@ -158,13 +179,38 @@
     10% {
         opacity: 0;
     }
-    25% {
+    30% {
         opacity: 0;
     }
     40% {
         opacity: 0;
     }
     70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* this is 关键帧 */
+@keyframes this-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
         opacity: 1;
     }
     100% {
@@ -189,10 +235,28 @@
     55% {
         opacity: 0;
     }
+    60% {
+        opacity: 0;
+    }
     70% {
         opacity: 1;
     }
     100% {
         opacity: 1;
+    }
+}
+
+@keyframes main-play {
+    0% {
+        background-color: rgb(99, 210, 224);
+    }
+    40% {
+        background-color: rgb(99, 210, 224);
+    }
+    70% {
+        background-color: rgb(5, 117, 182);
+    }
+    100% {
+        background-color: rgb(5, 117, 182);
     }
 }
