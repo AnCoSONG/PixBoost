@@ -7,7 +7,7 @@ function init_shower() {
     $("main").css("display", "none");
 
     // 设置背景
-    $("div.pre-show").css("background-color", "#333333");
+    // $("div.pre-show").css("background-color", "#00BFFF");
     // 设置画布宽高
     $("div.pre-show").css("width", $(window).width().toString() + "px");
     $("div.pre-show").css("height", $(window).height().toString() + "px");
@@ -58,7 +58,7 @@ function main() {
 
     setTimeout(function () {
         after_show();
-    }, 7500);
+    }, 7400);
 
 }
 
