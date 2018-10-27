@@ -1,93 +1,135 @@
-.classify-block-1 {
-    width: 100%;
-    height: calc(95vh);
-    border-radius: 30px;
-    background: url(../img/2.jpg) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 30px;
-    transition: all 0.2s ease-in-out;
-    
+hr {
+    width: 75%;
 }
-.classify-block-2 {
+a {
+    text-decoration: none;
+}
+
+.classify-block {
     width: 100%;
     height: calc(95vh);
     border-radius: 30px;
-    background: url(../img/7.jpg) no-repeat center center;
     background-size: cover;
     margin-bottom: 30px;
-    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
     transition: all 0.2s ease-in-out;
+    box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
+}
+
+.classify-block-1 {
+    background: url(../img/scenery.jpg) no-repeat center center;    
+}
+
+.classify-block-2 {
+    background: url(../img/2dimension.jpg) no-repeat center center;
     
 }
 .classify-block-3 {
-    width: 100%;
-    height: calc(95vh);
-    border-radius: 30px;
-    background: url(../img/20.jpg) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 30px;
-    transition: all 0.2s ease-in-out;
-    
+    background: url(../img/figure.jpg) no-repeat center center;
+
 }
 .classify-block-4 {
-    width: 100%;
-    height: calc(95vh);
-    border-radius: 30px;
-    background: url(../img/6.jpg) no-repeat center center;
-    background-size: cover;
-    margin-bottom: 30px;
-    transition: all 0.2s ease-in-out;
-    
+    background: url(../img/art.jpg) no-repeat center center;  
 }
 
-.classify-block-1:hover{
+.classify-block:hover{
     background-color: rgb(160, 160, 160);
     background-blend-mode: multiply;
     box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
 }
 
-.classify-block-2:hover{
-    background-color: rgb(160, 160, 160);
-    background-blend-mode: multiply;
-    box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
-}
-
-.classify-block-3:hover{
-    background-color: rgb(160, 160, 160);
-    background-blend-mode: multiply;
-    box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
-}
-
-.classify-block-4:hover{
-    background-color: rgb(160, 160, 160);
-    background-blend-mode: multiply;
-    box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
-}
 
 .classify-icon-left {
     
-    width:300px; height:300px;position: relative; top: 400px;left: 20%;
-    
-    
+    width: calc(18vw);
+    height:calc(18vw);
+    position: relative;
+    left: 15%;
+    top: 55%;
+}
+
+.n-angle-item {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.fix {
+    height: 10%;
+}
+
+.img-title {
+    position: relative;
+    width: 100%;
+    height: 30%; 
+    letter-spacing: calc(1vw);
+
+    vertical-align:middle;
+}
+
+.img-title a {
+    font-weight: bold; 
+    font-size: 300%;
+}
+
+
+.title-cn {
+    text-align: center;
+}
+.title-cn a {
+    position: relative;
+    top: 25%;
+}
+
+.title-en {
+    display: block;
+    text-align: center;
+    height: 50%;
+    letter-spacing: calc(0.4vw);;
+
+    text-align: center;
+}
+
+.title-en a {
+    position: relative;
+    top: 10%;
+}
+
+.horizon-line {
+    width:100%;
+    height: 10%;
+}
+
+.horizon-line img{
+    width:100%;
+
+}
+
+/*
+.animation-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .animation-img:hover {
     animation: rotateR 10s linear infinite;
-}
+} 
+*/
 
 
 
 .classify-icon-right {
     
-    width:300px; height:300px;position: relative; top: 400px;left: 60%;
-    
+    width: calc(18vw);
+    height:calc(18vw);
+    position: relative;
+    left: 65%;
+    top: 55%;
 }
 
-.horizon-line {
-    background: url(../img/line.png) no-repeat center center;
-    background-size: contain;
-    width:150px;height: 10px; position: relative; top: -218px;left: 75px;
-}
+
 
 
 
@@ -112,11 +154,11 @@
 a:hover {
     text-decoration: none;
 }
-.img-title {
-    color: #424242;
+.img-title  a {
+    color: rgb(51, 122, 183);;
 }
-.img-title:hover {
-    color: #0a43c0;
+.img-title a:hover {
+    color: #23527C;
 }
 
 .animation-text:hover {
