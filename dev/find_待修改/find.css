@@ -31,10 +31,10 @@ body{
     overflow-y:hidden;
 }
 #input_box{
+
     align-self: center;
     position: relative;
     top: 100px;
-    align-content: center;
     margin-left: auto;
     margin-right: auto;
     box-shadow:1px 1px 1px 1px rgb(117, 117, 117) ;
@@ -62,7 +62,6 @@ body{
     line-height: 1.5em;
 }
 .form-control{
-    border: solid 10px 10px 10px 10px #000;
     margin-left: 30px; 
 }
 #pic_name{
@@ -85,9 +84,6 @@ body{
     height: 30px;
     align-content: center;
     width: 20px;
-}
-.pull-right{
-    margin-right: 30px;
 }
 #upload_icon_false{
     margin-right: 20px;
@@ -120,6 +116,9 @@ body{
     filter: 'alpha(opacity=0)';
 }
 #submit_button{
+    position: relative;
+    bottom: 5px;
+    right: 10px;
     font-size: 10px;
     line-height: 10px;
     width: 80px;
@@ -134,20 +133,24 @@ body{
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 430px;
-    top: 905px;
+    left: -75px;
+    top: -75px;;
     animation:rotateImg 5s linear infinite;
     vertical-align: middle;
+    z-index: -1;
+    border-radius: 15px;
 }
 #rotate_pic_2{
     width: 150px;
     height: 150px;
     position: absolute;
-    left: 980px;
-    top: 1330px;;
+    bottom: -75px;
+    right: -75px;
     animation:rotateImg 5s linear infinite;
     vertical-align: middle;
+    z-index: -1;
+    border-radius: 15px;
 }
 #upload{
-    height: 1080px;
+   height: 1080px;
 }
