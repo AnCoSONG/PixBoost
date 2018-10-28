@@ -21,6 +21,10 @@ a.a:hover{
 .pictureSlider {
     height: 100%;
     transform: rotate(90deg) translateY(25%) translateX(-25%);
+    -ms-transform: rotate(90deg) translateY(25%) translateX(-25%);
+    -moz-transform: rotate(90deg) translateY(25%) translateX(-25%);
+    -webkit-transform: rotate(90deg) translateY(25%) translateX(-25%);
+    -o-transform: rotate(90deg) translateY(25%) translateX(-25%);
 }
 
 .poster-list {
@@ -43,6 +47,10 @@ a.a:hover{
     -o-transition: all 0.5s;
     cursor: default;
     transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
     overflow: hidden;
     box-shadow: 0px 16px 25.92px 6.08px rgba(6, 0, 1, 0.34);
 }

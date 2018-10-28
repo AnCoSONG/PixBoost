@@ -2,7 +2,13 @@
 
 .pre-show {
     animation: main-play 8s;
+    -moz-animation: main-play 8s;
+    -webkit-animation: main-play 8s;
+    -o-animation: main-play 8s;
     animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
     background-color: rgb(99, 210, 224);
     vertical-align: middle;
     display: table-cell;
@@ -12,7 +18,15 @@
 /* hi 左点 */
 .point-left {
     animation: left-point-show 8s;
+    -moz-animation: left-point-show 8s;
+    -webkit-animation: left-point-show 8s;
+    -o-animation: left-point-show 8s;
+
     animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+
     position: absolute;
     top: -90px;
     left: -120px;
@@ -26,7 +40,14 @@
 /* hi 右点 */
 .point-right {
     animation: right-point-show 8s;
+    -moz-animation: right-point-show 8s;
+    -webkit-animation: right-point-show 8s;
+    -o-animation: right-point-show 8s;
+
     animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
     position: absolute;
     top: -90px;
     right: -120px;
@@ -54,14 +75,29 @@
 /* hi主体 */
 .hi-body > img.hi-body-img {
     animation: hi-body-show 8s;
+    -moz-animation: hi-body-show 8s;
+    -webkit-animation: hi-body-show 8s;
+    -o-animation: hi-body-show 8s;
+
     animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+
     opacity: 0;
 }
 
 /* this is  */
 .show-this {
     animation: this-show 8s;
+    -moz-animation: this-show 8s;
+    -webkit-animation: this-show 8s;
+    -o-animation: this-show 8s;
     animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+
     position: absolute;
     margin-top: 40px;
     left: -600px;
@@ -75,7 +111,15 @@
 /* logo */
 .show-logo {
     animation: logo-show 8s;
+    -moz-animation: logo-show 8s;
+    -webkit-animation: logo-show 8s;
+    -o-animation: logo-show 8s;
+
     animation-timing-function: ease-in-out;
+    -moz-animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: ease-in-out;
+    -o-animation-timing-function: ease-in-out;
+
     position: absolute;
     margin-top: 40px;
     left: 600px;
@@ -89,6 +133,126 @@
 
 /* 左点关键帧 */
 @keyframes left-point-show {
+    0% {
+        opacity: 0;
+        top: -90px;
+        left: -130px;
+
+    }
+    20% {
+        opacity: 1;
+        top: -90px;
+        left: -130px;
+
+
+    }
+    30% {
+        opacity: 1;
+        top: -90px;
+        left: 225px;
+
+    }
+    40% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+
+    }
+    70% {
+        opacity: 1;
+        top: 10px;
+        left: 225;
+        background-color: #ffffff;
+
+    }
+    100% {
+        opacity: 0;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+    }
+}
+@-moz-keyframes left-point-show {
+    0% {
+        opacity: 0;
+        top: -90px;
+        left: -130px;
+
+    }
+    20% {
+        opacity: 1;
+        top: -90px;
+        left: -130px;
+
+
+    }
+    30% {
+        opacity: 1;
+        top: -90px;
+        left: 225px;
+
+    }
+    40% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+
+    }
+    70% {
+        opacity: 1;
+        top: 10px;
+        left: 225;
+        background-color: #ffffff;
+
+    }
+    100% {
+        opacity: 0;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+    }
+}
+@-webkit-keyframes left-point-show {
+    0% {
+        opacity: 0;
+        top: -90px;
+        left: -130px;
+
+    }
+    20% {
+        opacity: 1;
+        top: -90px;
+        left: -130px;
+
+
+    }
+    30% {
+        opacity: 1;
+        top: -90px;
+        left: 225px;
+
+    }
+    40% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+
+    }
+    70% {
+        opacity: 1;
+        top: 10px;
+        left: 225;
+        background-color: #ffffff;
+
+    }
+    100% {
+        opacity: 0;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+    }
+}
+@-o-keyframes left-point-show {
     0% {
         opacity: 0;
         top: -90px;
@@ -169,10 +333,184 @@
         background-color: #ffffff;
     }
 }
+@-moz-keyframes right-point-show {
+    0% {
+        opacity: 0;
+        top: -90px;
+        left: 305px;
+
+    }
+    20% {
+        opacity: 1;
+        top: -90px;
+        left: 305px;
+
+    }
+    30% {
+        opacity: 1;
+        top: -90px;
+        left: 225px;
+    }
+    40% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+
+    }
+    70% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+
+    }
+    100% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+    }
+}
+@-o-keyframes right-point-show {
+    0% {
+        opacity: 0;
+        top: -90px;
+        left: 305px;
+
+    }
+    20% {
+        opacity: 1;
+        top: -90px;
+        left: 305px;
+
+    }
+    30% {
+        opacity: 1;
+        top: -90px;
+        left: 225px;
+    }
+    40% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+
+    }
+    70% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+
+    }
+    100% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+    }
+}
+@-webkit-keyframes right-point-show {
+    0% {
+        opacity: 0;
+        top: -90px;
+        left: 305px;
+
+    }
+    20% {
+        opacity: 1;
+        top: -90px;
+        left: 305px;
+
+    }
+    30% {
+        opacity: 1;
+        top: -90px;
+        left: 225px;
+    }
+    40% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+
+    }
+    70% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+
+    }
+    100% {
+        opacity: 1;
+        top: 10px;
+        left: 225px;
+        background-color: #ffffff;
+    }
+}
 
 
 /* hi主体关键帧 */
 @keyframes hi-body-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes hi-body-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes hi-body-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes hi-body-show {
     0% {
         opacity: 0;
     }
@@ -217,6 +555,76 @@
         opacity: 1;
     }
 }
+@-moz-keyframes this-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes this-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes this-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 
 /* logo关键帧 */
 @keyframes logo-show {
@@ -245,8 +653,128 @@
         opacity: 1;
     }
 }
+@-moz-keyframes logo-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes logo-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@-o-keyframes logo-show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    55% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 @keyframes main-play {
+    0% {
+        background-color: rgb(99, 210, 224);
+    }
+    40% {
+        background-color: rgb(99, 210, 224);
+    }
+    70% {
+        background-color: rgb(5, 117, 182);
+    }
+    100% {
+        background-color: rgb(5, 117, 182);
+    }
+}
+@-moz-keyframes main-play {
+    0% {
+        background-color: rgb(99, 210, 224);
+    }
+    40% {
+        background-color: rgb(99, 210, 224);
+    }
+    70% {
+        background-color: rgb(5, 117, 182);
+    }
+    100% {
+        background-color: rgb(5, 117, 182);
+    }
+}
+@-webkit-keyframes main-play {
+    0% {
+        background-color: rgb(99, 210, 224);
+    }
+    40% {
+        background-color: rgb(99, 210, 224);
+    }
+    70% {
+        background-color: rgb(5, 117, 182);
+    }
+    100% {
+        background-color: rgb(5, 117, 182);
+    }
+}
+@-o-keyframes main-play {
     0% {
         background-color: rgb(99, 210, 224);
     }
