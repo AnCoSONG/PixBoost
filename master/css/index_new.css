@@ -77,42 +77,72 @@
   .radmenu .selected + ul > li:nth-child(1) {
     -webkit-transform: rotate(72deg) translateX(100px);
     transform: rotate(72deg) translateX(100px);
+    -moz-transform:rotate(72deg) translateX(100px);
+    -o-transform: rotate(72deg) translateX(100px);
+    -ms-transform: rotate(72deg) translateX(100px);
   }
   .radmenu .selected + ul > li:nth-child(1) > a {
     -webkit-transform: rotate(-72deg);
     transform: rotate(-72deg);
+    -moz-transform: rotate(-72deg);
+    -o-transform: rotate(-72deg);
+    -ms-transform: rotate(-72deg);
   }
   .radmenu .selected + ul > li:nth-child(2) {
     -webkit-transform: rotate(144deg) translateX(100px);
     transform: rotate(144deg) translateX(100px);
+    -moz-transform: rotate(144deg) translateX(100px);
+    -o-transform: rotate(144deg) translateX(100px);
+    -ms-transform: rotate(144deg) translateX(100px);
   }
   .radmenu .selected + ul > li:nth-child(2) > a {
     -webkit-transform: rotate(-144deg);
     transform: rotate(-144deg);
+    -moz-transform: rotate(-144deg);
+    -o-transform: rotate(-144deg);
+    -ms-transform: rotate(-144deg);
   }
   .radmenu .selected + ul > li:nth-child(3) {
     -webkit-transform: rotate(216deg) translateX(100px);
     transform: rotate(216deg) translateX(100px);
+    -moz-transform: rotate(216deg) translateX(100px);
+    -o-transform: rotate(216deg) translateX(100px);
+    -ms-transform: rotate(216deg) translateX(100px);
   }
   .radmenu .selected + ul > li:nth-child(3) > a {
     -webkit-transform: rotate(-216deg);
     transform: rotate(-216deg);
+    -moz-transform: rotate(-216deg);
+    -o-transform: rotate(-216deg);
+    -ms-transform: rotate(-216deg);
   }
   .radmenu .selected + ul > li:nth-child(4) {
     -webkit-transform: rotate(288deg) translateX(100px);
     transform: rotate(288deg) translateX(100px);
+    -moz-transform: rotate(288deg) translateX(100px);
+    -o-transform: rotate(288deg) translateX(100px);
+    -ms-transform: rotate(288deg) translateX(100px);
   }
   .radmenu .selected + ul > li:nth-child(4) > a {
     -webkit-transform: rotate(-288deg);
     transform: rotate(-288deg);
+    -moz-transform: rotate(-288deg);
+    -o-transform: rotate(-288deg);
+    -ms-transform: rotate(-288deg);
   }
   .radmenu .selected + ul > li:nth-child(5) {
     -webkit-transform: rotate(360deg) translateX(100px);
     transform: rotate(360deg) translateX(100px);
+    -moz-transform: rotate(360deg) translateX(100px);
+    -o-transform: rotate(360deg) translateX(100px);
+    -ms-transform: rotate(360deg) translateX(100px);
   }
   .radmenu .selected + ul > li:nth-child(5) > a {
     -webkit-transform: rotate(-360deg);
     transform: rotate(-360deg);
+    -moz-transform: rotate(-360deg);
+    -o-transform: rotate(-360deg);
+    -ms-transform: rotate(-360deg);
   }
   .radmenu .selected + ul > li > a {
     display: flex;
