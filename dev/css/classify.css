@@ -2,7 +2,6 @@ hr {
     width: 65%;
 }
 a {
-
     text-decoration: none!important;
 }
 
@@ -79,14 +78,15 @@ a {
 .title-cn {
     top:15%;
     text-align: center;
+    margin-left: 5px;
 }
 .title-cn a {
     position: relative;
-    top: 25%;
+    top: 40%;
 }
 
 .title-en {
-    top: 45%;
+    top: 50%;
     display: block;
     text-align: center;
     height: 50%;

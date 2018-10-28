@@ -75,7 +75,7 @@ a:hover{
 
 .upload-table {
     margin-top: calc(10vh);
-    height: calc(60vh);
+    height: auto;
     border-radius: 10px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease;
