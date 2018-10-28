@@ -1,16 +1,21 @@
 /* 小星星主展示 */
 .star-show {
     position: absolute;
-
-    top: 0;
-    right: 5vw;
     height: 60vh;
     width: 20vw;
 
-
-
-
 }
+
+.star-show-left {
+    left: 10vw ;
+    top: 0;
+}
+
+.star-show-right {
+    right: 5vw ;
+    top: 0;
+}
+
 
 /* 小星星牵线 */
 .star-line {
