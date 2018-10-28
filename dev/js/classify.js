@@ -1,5 +1,30 @@
 var MAX_COUNT = 4;
 
+function checkMouseInPage(page) {
+    var x;
+    var y;
+    $(document).mousemove(function(e){ 
+        x = e.pageX;
+        y = e.pageY; 
+   });
+    
+   //x的值相对于文档的左边缘。y的值相对于文档的上边缘
+   //x,y是全局变量;
+   //判断鼠标是否在某DIV中
+   var div = $("[page='" + page.toString() + "']");
+   var y1 = div.offset().top;  //div上面两个的点的y值
+   var y2 = y1 + div.height();//div下面两个点的y值
+   var x1 = div.offset().left;  //div左边两个的点的x值
+   var x2 = x1 + div.width();  //div右边两个点的x的值
+    
+   if( x < x1 || x > x2 || y < y1 || y > y2) {
+       console.log('鼠标不在该DIV中');
+       
+   }else{
+        console.log('鼠标在该DIV中');
+   };
+}
+
 
 /**
  * 主函数
@@ -33,8 +58,9 @@ function main() {
             $("[page='0'] > div.star-show > div.star-" + i.toString()).css("animation-fill-mode", "forwards");
         }
 
-
+        
         setTimeout(function() {
+            checkMouseInPage(0);
             // star-line
             for (var i = 1; i <= 3; i++) {
                 $("[page='0'] > div.star-show > div.star-line-" + i.toString()).css("animation-name", "line-move-" + i.toString());
@@ -53,7 +79,7 @@ function main() {
                 $("[page='0'] > div.star-show > div.star-" + i.toString()).css("animation-fill-mode", "forwards");
             }
             
-        }, 1000)
+        }, 1000);
     },
     function() {
         // star-line
@@ -113,7 +139,7 @@ function main() {
                 $("[page='1'] > div.star-show > div.star-" + i.toString()).css("animation-fill-mode", "forwards");
             }
             
-        }, 1000)
+        }, 1000);
     },
     function() {
         // star-line
@@ -173,7 +199,7 @@ function main() {
                 $("[page='2'] > div.star-show > div.star-" + i.toString()).css("animation-fill-mode", "forwards");
             }
             
-        }, 1000)
+        }, 1000);
     },
     function() {
         // star-line
@@ -233,7 +259,7 @@ function main() {
                 $("[page='3'] > div.star-show > div.star-" + i.toString()).css("animation-fill-mode", "forwards");
             }
             
-        }, 1000)
+        }, 1000);
     },
     function() {
         // star-line
