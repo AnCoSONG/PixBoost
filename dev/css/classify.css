@@ -44,8 +44,8 @@ a {
 
 
 .classify-icon-left {
-    width:calc(30vh); 
-    height:calc(30vh);
+    width:calc(35vh); 
+    height:calc(35vh);
     position: relative;
     left: 15%;
     top: 55%;
@@ -118,8 +118,8 @@ a {
 
 .classify-icon-right {
     
-    width:calc(30vh); 
-    height:calc(30vh);
+    width:calc(35vh); 
+    height:calc(35vh);
     position: relative;
     left: 65%;
     top: 55%;
