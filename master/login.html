@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <title>Pixboost主页</title>
+</head>
+<body>
+    <nav role="navigation">
+                <div class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <a href="index.html" class="navbar-brand"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="home.html">
+                                    <div class="navbar-item">
+                                        首 页
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="classify.html">
+                                    <div class="navbar-item">
+                                        分 类
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="daily.html">
+                                    <div class="navbar-item">
+                                        每 日 推 荐
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="findmore.html">
+                                    <div class="navbar-item">
+                                         发 现
+                                    </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <div class="search visible-lg">
+                                            <input type="search" class="form-control" placeholder="搜索图片">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-bt visible-lg">
+                                            <button class="btn btn-default" type="submit">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                            
+                                        </div>
+                                        
+                                    </li>
+        
+                            <li>
+                                <a href="login.html">
+                                    <div class="navbar-item  active">
+                                        登 录
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="signup.html">
+                                    <div class="navbar-item">
+                                        注 册
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+    </nav>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 visible-lg" style="position: relative; left: 30px;z-index: 1;">
+                    <div class="empty-1" style="height: 30px;"></div>
+                    <a href="" class="thumbnail">
+                        <img src="img/10.jpeg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <div class="col-lg-2 visible-lg" style="position: relative;right: 30px;z-index: 2;">
+                    <div class="empty-2" style="height: 300px;"></div>
+                    <a href="" class="thumbnail">
+                        <img src="img/4.jpg" alt="" class="img-responsive">
+                    </a>
+                </div>
+                <form action="login.jsp" role="form" method="GET">
+                    <div class="col-lg-4 content-wrap">
+                        <div class="table-header">
+                            <h1 class="text-left" style="font-weight: bold; margin-left: 30px;letter-spacing: 10px;float: left;font-size: 50px;">登录</h1>
+                            <small style="position: relative; top:50px; font-size: 15px;">没有账号？<a href="signup.html">注册</a></small>
+                        </div>
+                        <div class="table-content form-group" style="margin-top: 120px;">
+                            <h3 style="margin-left: 30px; letter-spacing: 10px; font-weight: bold;">账号</h1>
+                            <input type="text" class="form-control" placeholder="Username or E-mail address" style="margin-left: 30px;width:350px;">
+                            <a href="#" data-toggle="popover" data-content="你好像什么都没有输入呢" class="input-info pull-right" style="position: relative;top: -20px;
+                            ">
+                                <span class="glyphicon glyphicon-question-sign"></span>
+                            </a>
+                        </div>
+                        <div class="table-content form-group" style="margin-top:30px;">
+                                <h3 style="margin-left: 30px; letter-spacing: 10px; font-weight: bold;">密码</h1>
+                                <input type="password" class="form-control" placeholder="Password" style="margin-left: 30px;width:350px;">
+                                <a href="#" data-toggle="popover" data-content="你好像什么都没有输入呢" class="input-info pull-right" style="position: relative;top: -20px;
+                                ">
+                                    <span class="glyphicon glyphicon-question-sign"></span>
+                                </a>
+                        </div>
+                        <div class="table-content" style="margin-top:30px;margin-bottom: 20px;">
+                            <button class="btn btn-primary" style="margin-left: 30px;width:350px;height: 40px;" type="submit">
+                                <span style="letter-spacing: 10px; font-weight: bold;">登&nbsp;录</span>
+                            </button>
+                        </div>
+                        
+                        
+                    </div>
+                </form>
+                
+                <div class="col-lg-2 visible-lg" style="position: relative; left: 30px; z-index: 2;">
+                        <div class="empty-3" style="height: 20a0px;"></div>
+                        <a href="" class="thumbnail">
+                            <img src="img/7.jpg" alt="" class="img-responsive">
+                        </a>
+                </div>
+                <div class="col-lg-2 visible-lg" style="position: relative;right: 30px; z-index: 1">
+                    <div class="empty-4" style="height: 150px;"></div>
+                    <a href="" class="thumbnail">
+                        <img src="img/12.jpg" alt="" class="img-responsive float-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                            <hr>
+                            <div class="pixboost-mark">
+                            </div>
+                    </div>
+                   
+                </div>
+            </div>
+            
+    </footer>
+    <script>
+        $(function () { 
+	        $("[data-toggle='popover']").popover();
+        });
+    </script>
+</body>
+</html>

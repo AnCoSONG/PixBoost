@@ -1,0 +1,113 @@
+@media screen and (min-width:1200px){
+    .find-bg {
+    
+        background: url(../img/4.jpg) no-repeat center center;
+        width: 100%;
+        height: calc(100vh);
+        background-size: cover;
+        border-radius: 25px;
+        transition: all 0.2s ease;
+    }
+    .find-bg:hover {
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+        box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
+
+    }
+}
+
+@media (max-width:1200px) and (min-width:768px){
+    .find-bg {
+    
+        background: url(../img/4.jpg) no-repeat center center;
+        width: 100%;
+        height: calc(100vh);
+        background-size: cover;
+        border-radius: 15px;
+        transition: all 0.2s ease;
+    }
+    .find-bg:hover {
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+        box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
+    }
+}
+
+@media (max-width:768px) {
+    .find-bg {
+    
+        background: url(../img/4.jpg) no-repeat center center;
+        width: 100%;
+        height: calc(100vh);
+        background-size: cover;
+        border-radius: 5px;
+        transition: all 0.2s ease;
+    }
+
+    .find-bg:hover {
+        background-color: rgb(149, 149, 149);
+        background-blend-mode: multiply;
+        box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
+    }
+}
+
+.n-angle {
+    background: url(../img/n-angle.png) no-repeat center center;
+    background-size: contain;
+    height: calc(30vh);
+    position: relative;
+    top: 50%;
+    left: 30%;
+}
+
+a {
+    color: #424242;
+}
+
+a:hover{
+    text-decoration: none;
+    color: cornflowerblue；
+}
+
+.upload {
+    height: calc(70vh);
+}
+
+.upload-table {
+    margin-top: calc(10vh);
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+    
+}
+
+.upload-table:hover {
+    border: none;
+    box-shadow: 0px 16px 25.92px 10px rgba(6, 0, 1, 0.34);
+}
+
+.empty-1 {
+    animation: mymove-1 5s ease-in-out infinite;
+}
+
+.empty-2 {
+    animation: mymove-2 5s ease-in-out infinite;
+}
+
+  
+@keyframes mymove-1 {
+    0% { height:calc(10vh); }
+    50% { height: calc(40vh); }
+    100% { height:calc(10vh); }
+}
+
+@keyframes mymove-2 {
+    0% { height:calc(30vh); }
+    50% { height: calc(10vh); }
+    100% { height:calc(30vh); }
+}
+
+#inputFile {
+    outline: none;
+}

@@ -1,0 +1,150 @@
+.navbar{
+    background-color: #fff;
+    border: none;
+}
+
+a.navbar-brand {
+    background: url(../img/LOGO.png) no-repeat;
+    background-size: contain;
+    width: 300px;
+    background-position: 40px 5px;
+    position: relative;
+    left: -50px;
+    margin-right: 30px;
+}
+
+.nav.navbar-nav{
+    font-weight: bold;
+    font-size: 135%;
+    
+}
+
+.navbar-item.active {
+    background-color: #424242;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.navbar-item.active:hover{
+    color: rgb(200, 200, 200);
+}
+
+.navbar-item {
+
+    color: #424242;
+    padding: 5px 5px;
+}
+
+.navbar-item:hover{
+    border: 2px solid #d3d3d3;
+    margin: -2px -2px;
+    border-radius: 5px;
+}
+
+
+.search {
+    float: left;
+    width: 300px;
+    padding-top: 12px;
+    margin-right: -40px;
+    position: relative;
+    font-weight: normal;
+}
+.search-bt .btn-default {
+    border:none;
+    background:transparent;
+}
+
+.search-bt .btn-default:focus{
+    outline: 0;
+}
+
+.search-bt {
+
+    padding-top: 14px;
+    margin-right: 100px;
+}
+
+hr {
+    position: relative;
+    top:10px;
+    height: 2px;
+    background-color:  #d3d3d3;
+    border:1px solid #d3d3d3;
+}
+
+main {
+    padding-top: 60px;
+}
+
+
+.pixboost-mark {
+    background: url(../img/pixboost-footer.png) no-repeat center center;
+    background-size: contain;
+    height: 112px;
+    max-width: 100%;
+}
+
+/* 以上为nav和footer的部分*/
+
+.content-wrap {
+    margin-top: 50px;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    
+    height: auto;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+    border:2px solid rgba(0, 0, 0, 0.2);
+    transition: all 0.4s ease;
+}
+
+.content-wrap:hover {
+    border:none;
+    box-shadow: 0px 12px 27.84px 4.16px rgba(6, 0, 1, 0.34);
+}
+
+@media (max-width:992px)  {
+    .input-info {
+        right: 15%;
+    }
+}
+
+@media (min-width : 1500px) {
+    .input-info {
+        right: 15%;
+    }
+}
+
+.empty-1 {
+    animation: mymove-1 5s ease-in-out infinite;
+}
+.empty-3 {
+    animation: mymove-1 5s ease-in-out infinite;
+}
+
+.empty-2 {
+    animation: mymove-2 5s ease-in-out infinite;
+}
+
+.empty-4 {
+    animation: mymove-2 5s ease-in-out infinite;
+}
+  
+@keyframes mymove-1 {
+    0% { height:100px; }
+    50% { height: 200px; }
+    100% { height: 100px; }
+}
+
+@keyframes mymove-2 {
+    0% { height:150px; }
+    50% { height: 50px; }
+    100% { height: 150px; }
+}
+
+
+
+
+
+  
