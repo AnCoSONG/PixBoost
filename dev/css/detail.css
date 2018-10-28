@@ -1,0 +1,28 @@
+a{
+    color: #424242;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.operation-item {
+    margin-right: 30px;
+
+}
+
+.desc-classify {
+    margin-top: 10px;
+}
+
+.desc-operations {
+    margin-top: 20px;
+}
+
+.comment-item {
+    border: 2px solid hsl(189, 100%, 70%);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}

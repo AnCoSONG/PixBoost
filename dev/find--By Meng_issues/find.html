@@ -2,11 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
+    <!-- 包含了所有编译插件 -->
+=======
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <!-- 包含了所有编译插件 -->
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+>>>>>>> 0f42955bae5d1ab6be64057c8f38c758159cd809
     <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
@@ -21,18 +25,18 @@
                     if (e.wheelDelta) { //IE/Opera/Chrome 
                         var a = e.wheelDelta;//向上为120，向下为-120
                         if(a>0){//向上	
-                        document.body.scrollTop -= fullheight-1080;
+                        document.body.scrollTop -= fullheight/2;
                         } 
                         if(a<0){//向下
-                            document.body.scrollTop += fullheight-1080;
+                            document.body.scrollTop += fullheight/2;
                         }
                     } else if (e.detail) { //Firefox 
                         var a = e.detail;//向上为-3，向下为3
                         if(a<0){//向上
-                        document.documentElement.scrollTop -= fullheight-1080;
+                        document.documentElement.scrollTop -= fullheight/2;
                         } 
                         if(a>0){//向下
-                            document.documentElement.scrollTop += fullheight-1080;
+                            document.documentElement.scrollTop += fullheight/2;
                         }
                     }
                 }
@@ -41,11 +45,97 @@
             } 
             window.onmousewheel = document.onmousewheel = scrollFunc; //IE/Opera/Chrome
     </script>
+<<<<<<< HEAD
+    <link rel="stylesheet" href="find.css"/>
+    <link rel="stylesheet" href="../css/navfooter.css"/>
+=======
     <link rel="stylesheet" href="./find.css"/>
+    <link rel="stylesheet" href="./navfooter.css"/>
+>>>>>>> 0f42955bae5d1ab6be64057c8f38c758159cd809
     <title>Pixboost  发现</title>
 </head>
 
 <body>
+        <nav role="navigation">
+                <div class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                            <span class="sr-only">切换导航</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                            <a href="index_new.html" class="navbar-brand"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li>
+                                <a href="home.html">
+                                    <div class="navbar-item">
+                                        首 页
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="classify.html">
+                                    <div class="navbar-item">
+                                        分 类
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="daily.html">
+                                    <div class="navbar-item">
+                                        每 日 推 荐
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="findmore.html">
+                                    <div class="navbar-item  active">
+                                         发 现
+                                    </div>
+                                </a>
+                            </li>
+                            
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                                <li>
+                                    <div class="search visible-lg">
+                                            <input type="search" class="form-control" placeholder="搜索图片">
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="search-bt visible-lg">
+                                            <button class="btn btn-default" type="submit">
+                                                <span class="glyphicon glyphicon-search"></span>
+                                            </button>
+                                            
+                                        </div>
+                                        
+                                    </li>
+        
+                            <li>
+                                <a href="login.html">
+                                    <div class="navbar-item">
+                                        登 录
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="signup.html">
+                                    <div class="navbar-item">
+                                        注 册
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                        </div>
+                    </div>
+                </div>
+    </nav>
     <div class="page" id="item-1">
             <img id="find_bg" src="./find_bg.jpg" alt="">
             <div id="find_2"></div>
@@ -90,13 +180,22 @@
                                     </span>
                                     <span><button id="submit_button" class="btn btn-primary">提交</button></span>
                                 </div>
-                                
                             </form>
                             <img id="rotate_pic_2" class="visible-md visible-lg" src="./rotate_2.jpg">
                         </div>
                     </div>
                 </div>
     </div>
-    
+    <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                            <hr>
+                            <div class="pixboost-mark">
+                            </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
